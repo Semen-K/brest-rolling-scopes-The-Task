@@ -1,0 +1,19 @@
+.LogotypeComponent {
+	position: relative;
+	float: left;
+	z-index: 3;
+	margin: 10px 0 0 10px;
+	width: 200px;
+	height: 200px;
+	background: url(./logotype.png) 100% 100% no-repeat; 
+    background-size: cover; 
+}
+
+@media screen and (max-width: 800px) {
+	.LogotypeComponent {
+		width: 150px;
+		height: 150px;
+		
+	}
+		
+}

@@ -1,0 +1,59 @@
+.icon {
+	margin: 0 10px;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;	
+}
+
+.vk {
+	background-image: url(./vk.png);	
+}
+
+.twitter {
+	background-image: url(./twitter.png);
+}
+
+.facebook {
+	background-image: url(./facebook.png);
+}
+
+.youtube{
+	background-image: url(./youtube.png);
+}
+
+.google{
+	background-image: url(./googl.png)
+}
+
+.maill {
+	background-image: url(./maill.png);
+}
+
+.vk:hover {
+	background-image: url(./vkRed.png);	
+}
+
+.twitter:hover {
+	background-image: url(./twitterRed.png);
+}
+
+.facebook:hover {
+	background-image: url(./facebookRed.png);
+}
+
+.youtube:hover {
+	background-image: url(./youtubeRed.png);
+}
+
+.google:hover {
+	background-image: url(./googlRed.png)
+}
+
+.maill:hover {
+	background-image: url(./maillRed.png);
+}
+
+
+
+	

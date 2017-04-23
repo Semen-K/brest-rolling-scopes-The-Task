@@ -1,0 +1,51 @@
+.Control {
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100%; 
+	width: 100%;       
+}
+
+.BackSlider {
+	cursor: pointer;
+	position: relative;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(./back.png);
+	width: 50px;
+	height: 50px;
+	z-index: 4;
+}
+
+.NextSlider {
+	cursor: pointer;
+	position: relative;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(./next.png);
+	width: 50px;
+	height: 50px;
+	z-index: 4;
+}
+
+.NextSlider:hover {
+	background-image: url(./nextHover.png);
+}
+
+
+.BackSlider:hover {
+	background-image: url(./backHover.png);
+}	

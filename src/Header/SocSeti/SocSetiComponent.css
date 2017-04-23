@@ -1,0 +1,13 @@
+.SocSetiPosition {
+	float: left;
+	padding: 20px 10px 0 50px;
+}
+
+
+@media screen and (max-width: 800px) {
+	.SocSetiPosition {
+	float: left;
+	padding: 10px 5px 0 5px;
+}
+
+}

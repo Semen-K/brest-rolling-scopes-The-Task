@@ -1,0 +1,58 @@
+.UpMenu {
+	list-style: none;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-style: italic;
+}
+
+
+.UpMenu:hover {
+	color: #bb1742;
+}
+
+.MenuDiv {
+	display: block;
+}
+
+.UpMenuDiv {
+	right: 0;
+	width: 100%;
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	}
+
+@media screen and (min-width: 1200px) {
+	
+	.UpMenu {	
+		font-size: 25px;
+	}
+	
+	.UpMenuLi{
+		padding: 0 20px 0 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.UpMenu {	
+		font-size: 15px;
+	}
+	
+	.UpMenuLi{
+		padding: 0 5px 0 0;
+	}
+}

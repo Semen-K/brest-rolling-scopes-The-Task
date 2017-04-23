@@ -1,0 +1,62 @@
+.sliderVariant {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	position: relative;
+	height: 400px;
+}
+
+.sliderVariantItem {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-image: url(./contentFon.png);        
+}
+
+.TextSliderVariant {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+	position: absolute;
+	height: 100%;
+	width: 100%; 
+}
+
+.ComponentTextNameVariant {
+
+}
+
+.ComponentTextWedding {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.ComponentTextBrestVariant {
+	margin: 0 30px 20px 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	background-size: contain;
+}

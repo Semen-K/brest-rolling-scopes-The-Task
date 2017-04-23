@@ -1,0 +1,47 @@
+.Newslider {
+	position: relative;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	height: 400px;
+}
+
+.Slider1 {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;       
+}
+
+
+.Slider2 {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;		       
+}
+
+.classSliderNext, .classSliderBack {
+	z-index: 1;
+	-webkit-animation: slider_move 1s; 
+	animation: slider_move 1s;
+	}
+
+@-webkit-keyframes slider_move {
+	0% {opacity:0;}
+	100% {opacity:1;
+	       }
+}
+
+@keyframes slider_move {
+	0% {opacity:0;}
+	100% {opacity:1;}
+		
+}
