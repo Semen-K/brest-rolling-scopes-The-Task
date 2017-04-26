@@ -1,0 +1,96 @@
+.blockForm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #F44242;
+	padding: 0 0 0 110px;
+	background-color: rgba(255,255,255, 0);
+	display: block;
+	height: 400px;
+}
+
+.main {	
+	padding: 15px;
+	display: block; 
+	text-align: right;
+}
+
+form {
+	display: inline-block;
+	width: 250px;
+}
+
+
+.blockForm input[type="text"] {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #fff;
+	background-color: rgba(255,255,255, 0);
+	border: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	height: 30px;
+	width: 250px;
+	outline: none;
+	padding: 2px 5px 2px 5px;
+}
+
+.blockForm input[type="text"]:hover {
+	background-color: rgba(255,255,255, 0.2);
+	border: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	height: 30px;
+	width: 250px;
+	list-style: none;
+}
+
+.blockForm input[type="submit"] {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #F44242;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	margin: 10px 0 0 0;	
+	cursor: pointer;
+	display: inline-block;
+	padding: 3px 15px;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+.blockForm input[type="submit"]:hover {
+		border: 1px solid #f3e247;
+		background-color: rgba(255,255,255, 0.2);
+	}
+
+#qustion {
+	height: 100px;	
+}
+
+
+::-webkit-input-placeholder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: small;
+	color: #F44242;
+}
+::-moz-placeholder{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: small;
+	color: #F44242;
+}
+:-moz-placeholder{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: small;
+	color: #F44242;          
+}
+
+:-ms-input-placeholder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: small;
+	color: #F44242;
+}

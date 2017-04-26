@@ -1,0 +1,14 @@
+.Portfolio {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	height: 600px;
+	background-image: url(./ComponentPortfolio/imeges/FonSlider.png);
+} 

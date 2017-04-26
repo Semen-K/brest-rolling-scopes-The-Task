@@ -1,0 +1,11 @@
+iframe {
+	height: 400px;
+	width: 300px;
+	border: 0;
+}
+
+.MapContent {
+	display: block;
+	width: 100px;
+	height: 100px;
+}

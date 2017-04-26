@@ -8,23 +8,27 @@ export default function ComponentHeaderMenu(){
 const nameUpMenu=[
 	{
 		nameUp: 'O СЕБЕ',
-		path_url: './user',		
+		path_url: '/',		
 	},
 		{
 		nameUp: 'ПОРТФОЛИО',
-		path_url: './user',		
+		path_url: '/Portfolio',		
 	},
 	{
 		nameUp: 'ОБУЧЕНИЕ',
-		path_url: './user',		
+		path_url: '/Learn',		
 	},
 	{
 		nameUp: 'КОНТАКТЫ',
-		path_url: './user',		
+		path_url: '/Contact',		
 	},
 	{
 		nameUp: 'ОТЗЫВЫ',
-		path_url: './user',		
+		path_url: '/Write',		
+	},
+	{
+		nameUp: 'Чат',
+		path_url: '/Chat',		
 	},
 ];
 

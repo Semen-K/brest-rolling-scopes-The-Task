@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './componentMenu.css'
 import LogotypeComponent from '../LogotypeComponent/LogotypeComponent.js'
 
@@ -10,10 +11,12 @@ export default function ComponentMenu({UpMenu}){
 				<LogotypeComponent />
 			</div>
 			{UpMenu.map((item, index)=>
-					<div className='MenuDiv' key={index}>
-						<a className='UpMenu' href={item.path_url} >{item.nameUp}</a>  
-					</div>  
+				<div className='MenuDiv' key={index}>
+        			<NavLink exact activeClassName="active" className="UpMenu" to={item.path_url}>{item.nameUp}</NavLink>
+				</div>  
 			)}				
 		</div>	
 	)
 }
+
+				
